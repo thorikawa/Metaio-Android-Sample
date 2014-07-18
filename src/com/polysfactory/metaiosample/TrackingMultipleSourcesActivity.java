@@ -15,7 +15,7 @@ import com.metaio.sdk.jni.TrackingValuesVector;
 import com.metaio.sdk.jni.Vector3d;
 import com.metaio.tools.io.AssetsManager;
 
-public class TutorialTrackingSamples extends ARViewActivity {
+public class TrackingMultipleSourcesActivity extends ARViewActivity {
 
     private static int MAX_DRAW_MARKERS = 10;
     private List<IGeometry> metaioManList = new ArrayList<IGeometry>();
