@@ -1,7 +1,7 @@
 Metaio-Android-Sample
 =====================
 
-Small sample android projects using Metaio SDK
+Small sample android projects using [Metaio SDK](http://www.metaio.com/sdk/)
 
 Currently include the following samples.
 - TrackingMultipleSourcesActivity
