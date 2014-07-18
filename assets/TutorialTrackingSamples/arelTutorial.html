@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="../arel/arel.js"></script>
+		<script type="text/javascript" src="Assets/arelGlue.js"></script>
+		<link rel="stylesheet" type="text/css" href="../tutorials.css">
+
+		<style type="text/css">
+			body
+			{
+				font-family: Helvetica, Arial, sans-serif; 
+				margin: 0; 
+				font-size: 1.0em;
+			}
+		
+			.radio
+			{
+				position: absolute;
+				bottom: 0.3cm;
+				right: 0.5cm;
+			}
+			
+			input[type=radio] {
+				display:none; 
+			}
+			
+			input[type=radio]:checked + label { 
+				background-color:#a1a1a1;
+			}
+			
+			input[type=radio] + label {
+				display:inline-block;
+				margin:-2px;
+				width: 80px;
+				background-color: #e7e7e7;
+				border-color: #ddd;
+				border-style:double;
+				border-width:5px;
+				padding-right:0.5cm;
+				padding-left:0.5cm;
+				font-size: 1.0em;
+			}
+			
+			p {
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+
+		<title>Tutorial Tracking Samples</title>
+	</head>
+	<body>
+		<div class ="radio" id="radio">
+			<p> <input type="radio" id="radio1" name="radio" onclick="clickHandler()" /><label for="radio1">ID Marker</label> </p>
+			<p> <input type="radio" id="radio2" name="radio" onclick="clickHandler()" /><label for="radio2">Picture</label> </p>
+			<p> <input type="radio" id="radio3" name="radio" onclick="clickHandler()" checked="checked" /><label for="radio3">Markerless</label> </p>
+		</div>
+	</body>
+</html>

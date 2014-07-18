@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+	<trackingdata url="Assets/TrackingData_MarkerlessFast.xml" />
+	<arel>arelTutorial.html</arel>
+	<object id="1">
+		<assets3d>
+			<model>Assets/metaioman.md2</model>
+			<texture>Assets/metaioman.png</texture>
+			<transform>
+				<translation>
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</translation>
+				<rotation type="eulerdeg">
+					<x>0.0</x><y>0.0</y><z>0.0</z>
+				</rotation>
+				<scale>
+					<x>4.0</x><y>4.0</y><z>4.0</z>
+				</scale>
+			</transform>
+			<properties>
+				<coordinatesystemid>1</coordinatesystemid>
+			</properties>
+		</assets3d>
+	</object>
+</results>
